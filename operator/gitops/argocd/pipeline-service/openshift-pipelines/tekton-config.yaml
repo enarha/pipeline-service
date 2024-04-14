@@ -45,7 +45,7 @@ spec:
     transparency.enabled: "false"
 
     # Configure deep inspection
-    artifacts.pipelinerun.enable-deep-inspection: "true"
+    artifacts.pipelinerun.enable-deep-inspection: true
   trigger:
     options:
       configMaps:
