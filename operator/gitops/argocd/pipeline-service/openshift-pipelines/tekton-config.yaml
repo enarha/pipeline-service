@@ -36,6 +36,7 @@ spec:
 
     # Configure image signing
     artifacts.oci.storage: "oci"
+    artifacts.pipelinerun.enable-deep-inspection: true
 
     # Configure PipelineRun attestation
     artifacts.pipelinerun.format: "in-toto"
